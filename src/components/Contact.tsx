@@ -62,11 +62,29 @@ export const Contact: React.FC = () => {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-3">Connect With Me</h4>
-              <div className="flex space-x-4">
-                <Button variant="outline" size="sm">LinkedIn</Button>
-                <Button variant="outline" size="sm">GitHub</Button>
-                <Button variant="outline" size="sm">Twitter</Button>
+              <h4 className="font-semibold mb-4 text-lg">Connect With Me</h4>
+              <div className="flex space-x-3">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="hover-glow border-primary/30 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                >
+                  LinkedIn
+                </Button>
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  className="hover-glow border-accent/30 text-accent-foreground hover:bg-accent hover:text-white transition-all duration-300"
+                >
+                  GitHub
+                </Button>
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  className="hover-glow border-muted-foreground/30 text-muted-foreground hover:bg-muted-foreground hover:text-white transition-all duration-300"
+                >
+                  Twitter
+                </Button>
               </div>
             </div>
           </div>
